@@ -5,9 +5,9 @@ app = Flask(__name__)
 # função -> o que você quer exibir naquela página
 # template
 
-@app.route("/")
+@app.route('/')
 def home():
-    return render_template("home.html")
+    return render_template('home.html')
 
 #render_template("home.html")
 
