@@ -7,8 +7,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("home.html")
+    return 'Esta é a home'
 
+#render_template("home.html")
 
 # colocar o site no ar
 if __name__ == "__main__":
